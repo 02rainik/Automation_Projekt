@@ -13,7 +13,7 @@ namespace Zahlensysteme_Gruppe_C
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            Console.ReadKey();
+           Console.ReadKey();
         }
 
         /// <summary>
@@ -36,6 +36,12 @@ namespace Zahlensysteme_Gruppe_C
                     Console.WriteLine("Error 2");
                     break;
             }
+        }
+        void BinToHex(string Zahl)
+        {
+            string Hex = String.Format("{0:X4}", Convert.ToInt32(Zahl, 2));
+
+            Console.WriteLine("Die Zahl in Hexadecimal ist: " + Hex);
         }
     }
 }
