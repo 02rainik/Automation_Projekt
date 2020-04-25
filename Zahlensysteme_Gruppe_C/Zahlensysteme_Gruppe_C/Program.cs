@@ -59,6 +59,7 @@ namespace Zahlensysteme_Gruppe_C
             else
             {
                 Console.WriteLine("Eingabe ist keine Binärzahl");
+		HexorDec = 0;
             }
             
 
